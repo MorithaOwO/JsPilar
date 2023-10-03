@@ -47,29 +47,29 @@
 
 //Ejercicio 5🌸
 
-// const primerNumero = Number(prompt("Ingresa un numero"))
-// const segundoNumero = Number(prompt("Ingresa tu segundo numero"))
+const primerNumero = Number(prompt("Ingresa un numero"))
+const segundoNumero = Number(prompt("Ingresa tu segundo numero"))
 
-// const sumar = () => {
-//     const resultado = primerNumero + segundoNumero
-//     return resultado
-// }
-// const restar = () => {
-//     const resultado = primerNumero - segundoNumero
-//     return resultado
-// }
-// const dividir = () => {
-//     const resultado = primerNumero / segundoNumero
-//     return resultado
-// }
-// const multiplicar = () => {
-//     const resultado = primerNumero * segundoNumero
-//     return resultado
-// }
-// document.write(`El resultado de la suma es: ${sumar}. `)
-// document.write(`El resultado de la resta es: ${restar}. `)
-// document.write(`El resultado de la divicion es: ${dividir}. `)
-// document.write(`El resultado de la multiplicacion es: ${multiplicar}. `)
+const sumar = () => {
+    const resultado = primerNumero + segundoNumero
+    return resultado
+}
+const restar = () => {
+    const resultado = primerNumero - segundoNumero
+    return resultado
+}
+const dividir = () => {
+    const resultado = primerNumero / segundoNumero
+    return resultado
+}
+const multiplicar = () => {
+    const resultado = primerNumero * segundoNumero
+    return resultado
+}
+document.write(`El resultado de la suma es: ${sumar()}. `)
+document.write(`El resultado de la resta es: ${restar()}. `)
+document.write(`El resultado de la divicion es: ${dividir()}. `)
+document.write(`El resultado de la multiplicacion es: ${multiplicar()}. `)
 
 
 
